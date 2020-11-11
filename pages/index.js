@@ -23,12 +23,12 @@ export default function Home({ posts }) {
       </header>
       <article className='flex-1'>
         <section className='md:m-24 m-6'>
-          <h2 className='text-sm font-semibold my-1'>Notes</h2>
+          <h2 className='text-md md:text-sm font-semibold my-1'>Notes</h2>
           <ul>
             {posts.map(({ id, frontmatter }) => {
               return (<li key={id}>
                 <Link href={`/posts/${id}`}>
-                  <a className='text-xs'>{frontmatter.title}</a>
+                  <a className='text-sm md:text-xs'>{frontmatter.title}</a>
                 </Link>
               </li>)
             })}

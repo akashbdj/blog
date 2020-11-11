@@ -30,7 +30,7 @@ export default function Post({ postData }) {
                         <Date dateString={frontmatter.date} />
                     </div>
                 </header>
-                <ReactMarkdown source={content} renderers={renderers} className='markdown text-xs' />
+                <ReactMarkdown source={content} renderers={renderers} className='markdown text-sm md:text-xs' />
             </article>
         </Layout>
     )
