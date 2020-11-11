@@ -1,10 +1,13 @@
-.container {
+/* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
+  font-size: 0.75em;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #292a2d;
+  color: #a9a9b3;
 }
 
 .main {
@@ -67,8 +70,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: 'Courier New', monospace;
 }
 
 .grid {
@@ -114,9 +116,20 @@
   height: 1em;
 }
 
+.displayPicCtn {
+}
+
+.displayPic {
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 0.3618em rgba(150,152,152,.07);
+  box-shadow: 0 0 0 0.3618em rgba(150, 152, 152, 0.07);
+  width: 128px; 
+  height: 128px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
-}
+} */

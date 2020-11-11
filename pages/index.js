@@ -1,65 +1,45 @@
 import Head from 'next/head'
+import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import { getSortedPostsData } from '../lib/posts'
 
-export default function Home() {
+export default function Home({ posts }) {
   return (
-    <div className={styles.container}>
+    <div className='flex h-screen'>
       <Head>
-        <title>Create Next App</title>
+        <title>akashbdj</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <header className='header flex flex-col justify-center items-center w-1/5'>
+        <div className=''><i className='icofont-deer-head icofont-5x'></i></div>
+        <div className='p-4 text-xl'>
+          <a className='p-1' target='_blank' href='https://www.github.com/akashbdj' ><i class="fab fa-github-alt"></i></a>
+          <a className='p-1' target='_blank' href='https://www.twitter.com/akashbdj' ><i class="fab fa-twitter"></i></a>
+          <a className='p-1' target='_blank' href='https://linkedin.com/in/akashbdj91' ><i class="fab fa-linkedin"></i></a>
+          <a className='p-1' href='mailto:akashbdj@gmail.com' ><i class="fas fa-envelope"></i></a>
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+      </header>
+      <article className='flex-1'>
+        <section className='m-24'>
+          <h2 className='text-sm font-semibold my-1'>Notes</h2>
+          <ul>
+            {posts.map((post, idx) => {
+              return (<li>
+                <Link href={`/posts/${post.id}`}>
+                  <a className='text-xs'>{post.title}</a>
+                </Link>
+              </li>)
+            })}
+          </ul>
+        </section>
+      </article>
     </div>
   )
+}
+
+export async function getStaticProps() {
+  return {
+    props: { posts: getSortedPostsData() }
+  }
 }
