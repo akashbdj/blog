@@ -55,8 +55,7 @@ a {
 
 .markdown img {
   width: 80%;
-  border-radius: 5px;
-  margin: 15px auto;
+  margin: 0 auto;
 }
 
 .markdown ul {
@@ -70,5 +69,9 @@ a {
 }
 
 .markdown code {
-  font-family: 'Courier';
+  font-family: 'Fira Code';
+  border-radius: 2px;
+  padding: 1px 3px;
+  color: #bacdd6;
+  background-color: #a1acbb47;
 }
