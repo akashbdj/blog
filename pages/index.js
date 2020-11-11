@@ -17,6 +17,7 @@ export default function Home({ posts }) {
           <a className='p-1' target='_blank' href='https://www.github.com/akashbdj' ><i className="fab fa-github-alt"></i></a>
           <a className='p-1' target='_blank' href='https://www.twitter.com/akashbdj' ><i className="fab fa-twitter"></i></a>
           <a className='p-1' target='_blank' href='https://linkedin.com/in/akashbdj91' ><i className="fab fa-linkedin"></i></a>
+          <a className='p-1' target='_blank' href='https://www.youtube.com/channel/UC8vRw6EcCgIKVuaazldTwDw' ><i className="fab fa-youtube"></i></a>
           <a className='p-1' href='mailto:akashbdj@gmail.com' ><i className="fas fa-envelope"></i></a>
         </div>
       </header>
