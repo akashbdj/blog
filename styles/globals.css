@@ -1,9 +1,15 @@
+:root {
+  --main-bg-color: #8195b7;
+  --gradient-dark-section: #6f83a6;
+  --code-bg-color: #64779a;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: Verdana, Helvetica Neue, sans-serif;
-  background-color: #4a5568;
+  background-color: var(--main-bg-color);
 }
 
 a {
@@ -27,10 +33,10 @@ a {
     bottom: 15%;
     right: -1px;
     width: 1px;
-    background: -moz-linear-gradient(top, rgba(227,224,216,0) 0%, #394452 20%, #394452 80%, rgba(227,224,216,0) 100%);
-    background: -webkit-linear-gradient(top, rgba(227,224,216,0) 0%, #394452 20%, #394452 80%, rgba(227,224,216,0) 100%);
-    background: linear-gradient(to bottom, rgba(227,224,216,0) 0%, #394452 20%, #394452 80%, rgba(227,224,216,0), 100%);
-    background: linear-gradient(to bottom, #4a5667 0%,  #394452 10%, #394452 70%,#4a5667 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(top, var(--main-bg-color) 0%, var(--gradient-dark-section) 20%, var(--gradient-dark-section) 80%, var(--main-bg-color) 100%);
+    background: -webkit-linear-gradient(top, var(--main-bg-color) 0%, var(--gradient-dark-section) 20%, var(--gradient-dark-section) 80%, var(--main-bg-color) 100%);
+    background: linear-gradient(to bottom, var(--main-bg-color) 0%, var(--gradient-dark-section) 20%, var(--gradient-dark-section) 80%, var(--main-bg-color), 100%);
+    background: linear-gradient(to bottom, var(--main-bg-color) 0%,  var(--gradient-dark-section) 10%, var(--gradient-dark-section) 70%,var(--main-bg-color) 100%);
 }
 
 
@@ -58,8 +64,7 @@ a {
 }
 
 .markdown img {
-  width: 80%;
-  margin: 0 auto;
+  @apply w-full mx-auto;
 }
 
 .markdown ul {
@@ -73,9 +78,16 @@ a {
 }
 
 .markdown code {
-  font-family: 'Fira Code';
+  font-family: 'Fira Code', ;
   border-radius: 2px;
   padding: 1px 3px;
   color: #bacdd6;
-  background-color: #a1acbb47;
+  background-color: var(--code-bg-color);
+}
+
+
+@screen md {
+  .markdown img {
+    @apply w-4/5;
+  }
 }
