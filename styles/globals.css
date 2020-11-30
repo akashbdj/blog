@@ -85,6 +85,20 @@ a {
   background-color: var(--code-bg-color);
 }
 
+.markdown .mjx-math {
+  font-size: 1.3em;
+}
+
+.markdown blockquote {
+  @apply py-2 px-4 italic;
+  border-left: 4px solid #677a9c;
+  background-color: #7b8fb1;
+}
+
+.markdown a {
+  @apply underline;
+  color: darkblue;
+}
 
 @screen md {
   .markdown img {

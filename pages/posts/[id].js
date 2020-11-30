@@ -6,11 +6,13 @@ import Layout from '../../components/layout'
 import ReactMarkdown from 'react-markdown'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { nord } from 'react-syntax-highlighter/dist/cjs/styles/prism'
+import MathJax from 'react-mathjax'
+import RemarkMathPlugin from 'remark-math'
 
 const renderers = {
-    code: ({ language, value }) => {
-        return <SyntaxHighlighter style={nord} language={language} children={value} />
-    }
+    code: ({ language, value }) => <SyntaxHighlighter style={nord} language={language} children={value} />,
+    math: (props) => <MathJax.Node formula={props.value} />,
+    inlineMath: (props) => <MathJax.Node inline formula={props.value} />
 }
 
 export default function Post({ postData }) {
@@ -30,7 +32,9 @@ export default function Post({ postData }) {
                         <Date dateString={frontmatter.date} />
                     </div>
                 </header>
-                <ReactMarkdown source={content} renderers={renderers} className='markdown text-sm md:text-xs' />
+                <MathJax.Provider>
+                    <ReactMarkdown plugins={[RemarkMathPlugin]} source={content} renderers={renderers} className='markdown text-sm md:text-xs' />
+                </MathJax.Provider>
             </article>
         </Layout>
     )
