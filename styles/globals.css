@@ -1,8 +1,16 @@
 :root {
+  --main-bg-color: #8ea99f;
+  --gradient-dark-section: #7f9a90;
+  --code-bg-color: #465f56;
+  --quote-bg-color: #7f9a90;
+}
+
+/* 
+old colors:
   --main-bg-color: #8195b7;
   --gradient-dark-section: #6f83a6;
   --code-bg-color: #64779a;
-}
+*/
 
 html,
 body {
@@ -78,7 +86,7 @@ a {
 }
 
 .markdown code {
-  font-family: 'Fira Code', ;
+  font-family: 'Fira Code';
   border-radius: 2px;
   padding: 1px 3px;
   color: #bacdd6;
@@ -91,8 +99,14 @@ a {
 
 .markdown blockquote {
   @apply py-2 px-4 italic;
-  border-left: 4px solid #677a9c;
-  background-color: #7b8fb1;
+  border-left: 4px solid #627971;
+  background-color: var(--quote-bg-color);
+  /* border-left: 4px solid #677a9c; */
+  /* background-color: #7b8fb1; */
+}
+
+.markdown pre {
+  background-color: #25332e !important;
 }
 
 .markdown a {
