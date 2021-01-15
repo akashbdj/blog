@@ -1,5 +1,5 @@
 ---
-title: 'Intro to Calculas'
+title: 'Intro to Calculus'
 date: '2020-11-27T05:35:07.322Z'
 ---
 
