@@ -18,12 +18,13 @@ date: '2021-01-16T05:35:07.322Z'
 5. [Coding the Matrix: Linear Algebra through Applications to Computer Science 1st Edition: Philip N. Klein](https://www.amazon.com/Coding-Matrix-Algebra-Applications-Computer/dp/0615880991)
 6. [Linear Algebra and Optimization for Machine Learning: Charu C. Aggarwal](https://www.amazon.com/Linear-Algebra-Optimization-Machine-Learning/dp/3030403432)
 7. [Algebra: PatrickJMT](http://patrickjmt.com/#algebra)
-8. [Linear Algebra: PatrickJMT](http://patrickjmt.com/#linear-algebra)
-9. [Vector and Dot Product: Freya Holmér](https://www.youtube.com/watch?v=MOYiVLEnhrw)
-10. [Space and Cross Product: Freya Holmér](https://www.youtube.com/watch?v=XiwEyopOMqg)
-11. [Art of Problem Solving](https://artofproblemsolving.com/store/list/aops-curriculum#problem-solving)
-12. [Interactive Linear Algebra](http://immersivemath.com/ila/index.html)
-13. Introduction to Linear Algebra 5th Edition: Gilbert Strang
+8. [Intermediate Algebra: Professor Leonard](https://youtube.com/playlist?list=PLC292123722B1B450)
+9. [Linear Algebra: PatrickJMT](http://patrickjmt.com/#linear-algebra)
+10. [Vector and Dot Product: Freya Holmér](https://www.youtube.com/watch?v=MOYiVLEnhrw)
+11. [Space and Cross Product: Freya Holmér](https://www.youtube.com/watch?v=XiwEyopOMqg)
+12. [Art of Problem Solving](https://artofproblemsolving.com/store/list/aops-curriculum#problem-solving)
+13. [Interactive Linear Algebra](http://immersivemath.com/ila/index.html)
+14. Introduction to Linear Algebra 5th Edition: Gilbert Strang
     - [Book: 4th Edition](https://www.amazon.com/Introduction-Linear-Algebra-Fourth-Gilbert/dp/0980232716)
 	- [Book: 5th Edition](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/)
 	- [Videos](https://www.youtube.com/watch?v=ZK3O402wf1c&list=PL49CF3715CB9EF31D&index=1)
@@ -34,6 +35,7 @@ date: '2021-01-16T05:35:07.322Z'
 3. [Intuitive Trigonometry: BetterExplained](https://betterexplained.com/articles/intuitive-trigonometry/)
 4. [Trigonometry: Freya Holmér](https://www.youtube.com/watch?v=1NLekEd770w)
 5. [Interpolation & Velocity: Freya Holmér](https://www.youtube.com/watch?v=-Ii3MrJFBkQ)
+6. [Trigonometry course for beginners](https://www.youtube.com/watch?v=5zi5eG5Ui-Y)
 
 ### Calculus:
 1. [Essence of Calculus: 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
@@ -46,9 +48,12 @@ date: '2021-01-16T05:35:07.322Z'
 8. [MIT Calculus Revisited: Single Variable Calculus](https://www.youtube.com/watch?v=MFRWDuduuSw&list=PL4buDdUD7fvhVAlLpfF2lIhWmRd6Rd7Wj&index=1)
 9. [Multivariable Calculus: 3Blue1Brown ](https://www.youtube.com/watch?v=TrcCbdWwCBc&list=PLSQl0a2vh4HC5feHa6Rc5c0wbRTx56nF7&index=1)
 10. [Differential Equation: Paul's notes](https://tutorial.math.lamar.edu/classes/de/de.aspx)
-11. [http://www.calculus.org/](http://www.calculus.org/)
-12. [Calculus: PatrickJMT](http://patrickjmt.com/#calculus)
-13. Calculus Made Easy Revised, Updated, Expanded Edition: Silvanus P. Thompson
+11. [Calculus: PatrickJMT](http://patrickjmt.com/#calculus)
+12. [Pre-Calculus: Professor Leonard](https://www.youtube.com/watch?v=FkUEsP9efFg&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&index=2)
+13. [Calculus 1: Professor Leonard](https://www.youtube.com/playlist?list=PLF797E961509B4EB5)
+14. [Calculus 2: Professor Leonard](https://www.youtube.com/watch?v=H9eCT6f_Ftw&list=PLDesaqWTN6EQ2J4vgsN1HyBeRADEh4Cw-)
+15. [Calculus 3: Professor Leonard](https://www.youtube.com/watch?v=tGVnBAHLApA&list=PLDesaqWTN6ESk16YRmzuJ8f6-rnuy0Ry7)
+16. Calculus Made Easy Revised, Updated, Expanded Edition: Silvanus P. Thompson
 	 - [Book](https://www.amazon.com/Calculus-Made-Easy-Silvanus-Thompson/dp/0312185480)
 	 - [Website](https://calculusmadeeasy.org/)
 
