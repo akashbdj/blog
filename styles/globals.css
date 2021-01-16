@@ -3,6 +3,7 @@
   --gradient-dark-section: #7f9a90;
   --code-bg-color: #465f56;
   --quote-bg-color: #7f9a90;
+  --font-color: #14211c;
 }
 
 /* 
@@ -18,6 +19,7 @@ body {
   margin: 0;
   font-family: Verdana, Helvetica Neue, sans-serif;
   background-color: var(--main-bg-color);
+  color: var(--font-color);
 }
 
 a {

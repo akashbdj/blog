@@ -22,7 +22,7 @@ export default function Post({ postData }) {
             <Head>
                 <title>{frontmatter.title}</title>
             </Head>
-            <div className='text-center mt-4'>
+            <div className='text-center mt-10'>
                 <a href='/'><i className='icofont-deer-head icofont-3x'></i></a>
             </div>
             <article className='flex flex-col my-10'>
