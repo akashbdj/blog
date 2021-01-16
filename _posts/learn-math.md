@@ -4,22 +4,22 @@ date: '2021-01-16T05:35:07.322Z'
 ---
 
 ### Generic:
-1. [Book of Proof](http://www.people.vcu.edu/~rhammack/BookOfProof/)
+1. [Book of Proof: Richard Hammack](http://www.people.vcu.edu/~rhammack/BookOfProof/)
 2. [How to Prove It: A Structured Approach, 2nd Edition: Daniel J. Velleman](https://www.amazon.com/How-Prove-Structured-Approach-2nd/dp/0521675995)
 3. [Introduction to Mathematical Philosophy: Bertrand Russell](https://www.amazon.com/Introduction-Mathematical-Philosophy-Bertrand-Russell/dp/1684221447)
-4. [BetterExplained: How to develop your intuition for math](https://betterexplained.com/articles/developing-your-intuition-for-math/)
+4. [How to develop your intuition for math: BetterExplained](https://betterexplained.com/articles/developing-your-intuition-for-math/)
 5. [3Blue1Brown: Lockdown math on several topics](https://www.youtube.com/watch?v=ppWPuXsnf1Q&list=PLZHQObOWTQDP5CVelJJ1bNDouqrAhVPev)
 
 ### Linear Algebra:
 1. [Essence of Linear Algebra: 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-2. [BetterExplaied: Learn Linear Algebra Intuitively](https://betterexplained.com/articles/linear-algebra-guide/)
+2. [Learn Linear Algebra Intuitively: BetterExplaied](https://betterexplained.com/articles/linear-algebra-guide/)
 3. [Linear Algebra Done Right 3rd ed. 2015 Edition: Sheldon Axler](https://www.amazon.com/Linear-Algebra-Right-Undergraduate-Mathematics/dp/3319110799)
 4. [No bullshit guide to linear algebra 2nd Edition: Ivan Savov](https://www.amazon.com/No-bullshit-guide-linear-algebra/dp/0992001021)
 5. [Coding the Matrix: Linear Algebra through Applications to Computer Science 1st Edition: Philip N. Klein](https://www.amazon.com/Coding-Matrix-Algebra-Applications-Computer/dp/0615880991)
 6. [Linear Algebra and Optimization for Machine Learning: Charu C. Aggarwal](https://www.amazon.com/Linear-Algebra-Optimization-Machine-Learning/dp/3030403432)
 7. [Algebra: PatrickJMT](http://patrickjmt.com/#algebra)
 8. [Linear Algebra: PatrickJMT](http://patrickjmt.com/#linear-algebra)
-9. [Vector and Dot Product Freya Holmér](https://www.youtube.com/watch?v=MOYiVLEnhrw)
+9. [Vector and Dot Product: Freya Holmér](https://www.youtube.com/watch?v=MOYiVLEnhrw)
 10. [Space and Cross Product: Freya Holmér](https://www.youtube.com/watch?v=XiwEyopOMqg)
 11. [Art of Problem Solving](https://artofproblemsolving.com/store/list/aops-curriculum#problem-solving)
 12. [Interactive Linear Algebra](http://immersivemath.com/ila/index.html)
@@ -58,3 +58,4 @@ date: '2021-01-16T05:35:07.322Z'
 
 ### Discrete Mathematics:
 1. [Discrete Mathematics: Introduction to Mathematical Reasoning 1st Edition: Susanna S. Epp](https://www.amazon.com/Discrete-Mathematics-Introduction-Mathematical-Reasoning/dp/0495826170)
+2. [Mathematics for Computer Science: MIT OCW](https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B&index=1)
